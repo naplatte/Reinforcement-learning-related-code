@@ -32,4 +32,7 @@ using Grid  = std::vector<std::vector<StateInfo>>;//类型别名，Grid是一个
 //构建状态信息：定义奖励、终止态、墙
 void build_grid(Grid& grid);
 
+//下一个状态
+std::pair<int,int> next_state(int r,int c,Action a,const Grid& grid);
+
 #endif //GRIDWORLD_H
