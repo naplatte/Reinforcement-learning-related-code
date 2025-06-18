@@ -30,7 +30,7 @@ void policy_iteration(const Grid& grid,std::vector<std::vector<double>>& V,std::
                     if (grid[r][c].type == StateType::Wall) continue;
                     int a = policy[r][c];
                     auto [next_r,next_c] = next_state(r,c,static_cast<Action>(a),grid);
-                    double new_val = grid[next_r,next_c].reward + GAMMA * V[next_r,next_c];
+                    double new_val = grid[next_r][next_c].reward + GAMMA * V[next_r][next_c];
                     delta = std::max(delta,std::fabs(new_val - V[r][c]));
                     V[r][c] = new_val;
                 }
@@ -49,13 +49,13 @@ void policy_iteration(const Grid& grid,std::vector<std::vector<double>>& V,std::
                 double best_q = -1e9;
                 for (int a = 0; a < ACTIONS; ++a) {
                     auto [next_r,next_c] = next_state(r,c,static_cast<Action>(a),grid);
-                    double val = grid[next_r,next_c].reward + GAMMA * V[next_r,next_c];
+                    double val = grid[next_r][next_c].reward + GAMMA * V[next_r][next_c];
                     if (val > best_q) {
                         best_q = val;
                         best_a = a;
                     }
                 }
-                policy[r,c] = best_a;
+                policy[r][c] = best_a;
                 if (best_a != old_a)
                     stable = false;
             }

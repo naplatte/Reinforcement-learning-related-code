@@ -11,7 +11,7 @@
 /*
 算法思路:
 初始化状态值V（比如全设为0），定义一个策略并赋初值（赋予多少不重要，仅仅为定义变量赋初值）
-
+使用贝尔曼公式反复更新每个状态的最大V,直到收敛，然后再从使用最大V求出最优动作（策略）
 */
 
 //输入：环境grid,价值表v,最优策略policy
@@ -27,15 +27,15 @@ void value_iteration(const Grid& grid,std::vector<std::vector<double>>& V,std::v
         //遍历每一个(s,a)
         for (int r = 0; r < ROWS; ++r) {
             for (int c = 0; c < COLS; ++c) {
-                if (grid[r][c] == StateType::Wall) continue;//跳过边界
+                if (grid[r][c].type == StateType::Wall) continue;//跳过边界
                 double best_q = -1e9;//最大动作值
                 for (int a = 0; a < ACTIONS; ++a) {
                     auto [next_r,next_c] = next_state(r,c,static_cast<Action> (a),grid);
-                    double q_value = grid[next_r,next_c].reward + GAMMA * V[next_r,next_c];
-                    if (q_value > best) best = q_value;
+                    double q_value = grid[next_r][next_c].reward + GAMMA * V[next_r][next_c];
+                    if (q_value > best_q) best_q = q_value;
                 }
                 //值更新
-                delta = std::max(delta,std::fabs(best - V[r][c]));//差值，看是否收敛
+                delta = std::max(delta,std::fabs(best_q - V[r][c]));//差值，看是否收敛
                 V[r][c] = best_q;
             }
         }
@@ -45,7 +45,7 @@ void value_iteration(const Grid& grid,std::vector<std::vector<double>>& V,std::v
     //策略更新 - 一次性对每一个s更新策略（值收敛后，一次性提取最优策略）
     for (int r = 0; r < ROWS; ++r) {
         for (int c = 0; c < COLS; ++c) {
-            if (grid[r][c] == StateType::Wall)  continue;
+            if (grid[r][c].type == StateType::Wall)  continue;
             double best_q = -1e9;
             int best_a = 0;
             for (int a = 0; a < ACTIONS; ++a) {
