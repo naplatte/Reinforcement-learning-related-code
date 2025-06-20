@@ -27,7 +27,6 @@ void value_iteration(const Grid& grid,std::vector<std::vector<double>>& V,std::v
         //遍历每一个(s,a)
         for (int r = 0; r < ROWS; ++r) {
             for (int c = 0; c < COLS; ++c) {
-                if (grid[r][c].type == StateType::Wall) continue;//跳过边界
                 double best_q = -1e9;//最大动作值
                 for (int a = 0; a < ACTIONS; ++a) {
                     auto [next_r,next_c] = next_state(r,c,static_cast<Action> (a),grid);
@@ -45,7 +44,6 @@ void value_iteration(const Grid& grid,std::vector<std::vector<double>>& V,std::v
     //策略更新 - 一次性对每一个s更新策略（值收敛后，一次性提取最优策略）
     for (int r = 0; r < ROWS; ++r) {
         for (int c = 0; c < COLS; ++c) {
-            if (grid[r][c].type == StateType::Wall)  continue;
             double best_q = -1e9;
             int best_a = 0;
             for (int a = 0; a < ACTIONS; ++a) {
@@ -56,6 +54,7 @@ void value_iteration(const Grid& grid,std::vector<std::vector<double>>& V,std::v
                     best_a = a;
                 }
             }
+            policy[r][c] = best_a;
         }
     }
 

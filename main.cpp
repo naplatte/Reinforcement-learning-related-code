@@ -17,19 +17,25 @@ void print_grid(const std::vector<std::vector<double>> V) {
 }
 
 //打印policy
-void print_policy(const std::vector<std::vector<int>>& policy,const Grid& grid) {
-    const char arrows[] = "↑→↓←";
+void print_policy(const std::vector<std::vector<int>>& policy, const Grid& grid) {
+    const char arrows[] = "^>v<○";
     for (int r = 0; r < ROWS; ++r) {
         for (int c = 0; c < COLS; ++c) {
-            if (grid[r][c].type == StateType::Terminal) std::cout << "T";
-            else if (grid[r][c].type == StateType::Wall) std::cout << "#";
-            else if (grid[r][c].type == StateType::Forbidden) std::cout << "x";
-            else std::cout << arrows[policy[r][c]] << " ";
+            if (grid[r][c].type == StateType::Terminal) {
+                std::cout << arrows[policy[r][c]] << "(T) ";
+            } else if (grid[r][c].type == StateType::Forbidden) {
+                std::cout << arrows[policy[r][c]] << "(x) ";
+            } else if (policy[r][c] >= 0 && policy[r][c] < ACTIONS) {
+                std::cout << arrows[policy[r][c]] << " ";
+            } else {
+                std::cout << "? "; // 未初始化
+            }
         }
         std::cout << "\n";
     }
     std::cout << "\n";
 }
+
 
 int main() {
     Grid grid;

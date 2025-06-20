@@ -27,7 +27,6 @@ void policy_iteration(const Grid& grid,std::vector<std::vector<double>>& V,std::
             double delta = 0.0;
             for (int r = 0; r < ROWS; ++r) {
                 for (int c = 0; c < COLS; ++c) {
-                    if (grid[r][c].type == StateType::Wall) continue;
                     int a = policy[r][c];
                     auto [next_r,next_c] = next_state(r,c,static_cast<Action>(a),grid);
                     double new_val = grid[next_r][next_c].reward + GAMMA * V[next_r][next_c];
@@ -42,8 +41,6 @@ void policy_iteration(const Grid& grid,std::vector<std::vector<double>>& V,std::
         stable = true;
         for (int r = 0; r < ROWS; ++r) {
             for (int c = 0; c < COLS; ++c) {
-                if (grid[r][c].type == StateType::Wall) continue;
-
                 int old_a = policy[r][c];
                 int best_a = old_a;
                 double best_q = -1e9;
