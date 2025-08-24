@@ -20,3 +20,6 @@
 - 策略改进：拿到在评估阶段求得的状态值V，根据贝尔曼公式去求动作值（即时奖励+gamma*未来回报），选择动作值最大的action，更新策略
 
 ![image-20250620081220667](https://raw.githubusercontent.com/sleepyDev0x/Pictures/main/c45d7433a37086177883a0685c54e6a2.png)	
+
+#### 策略梯度
+- ai跑了一下REINFORCE、TRPO和PPO

@@ -8,4 +8,7 @@ add_executable(Reinforcement_learning_related_code main.cpp
         env/gridworld.h
         env/gridworld.cpp
         algorithms/value_iteration.h
-        algorithms/policy_iteration.h)
+        algorithms/policy_iteration.h
+        algorithms/reinforce.h
+        algorithms/trpo.h
+        algorithms/ppo.h)

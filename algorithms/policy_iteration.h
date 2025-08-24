@@ -10,19 +10,19 @@
 #include <cmath>
 
 /*
- 算法思路：
- 给定一个初始策略（比如action全是向上），状态值初值设为0（设为几不重要，仅仅是定义这个变量赋予一个初值）
- 策略评估：评估在这样一个策略下，对于所有(s,a)的状态值，这个过程实际上就是求贝尔曼方程的过程，我们使用迭代法去求，所以引入delta就是为了判别v是否收敛为状态值
- 策略改进：拿到在评估阶段求得的状态值V，根据贝尔曼公式去求动作值（即时奖励+gamma*未来回报），选择动作值最大的action，更新策略
+ Algorithm idea:
+ Given an initial policy (e.g., all actions are up), state values are initialized to 0 (the initial value doesn't matter, just define this variable with an initial value)
+ Policy evaluation: Evaluate the state values for all (s,a) under such a policy. This process is actually solving the Bellman equation. We use iteration to solve it, so delta is introduced to determine whether v converges to the state value
+ Policy improvement: Using the state values V obtained in the evaluation phase, calculate action values according to the Bellman formula (immediate reward + gamma * future return), select the action with the maximum action value, and update the policy
  */
 void policy_iteration(const Grid& grid,std::vector<std::vector<double>>& V,std::vector<std::vector<int>>& policy) {
-    //初始化
+    //initialization
     V.assign(ROWS,std::vector<double>(COLS,0.0));
     policy.assign(ROWS,std::vector<int>(COLS,0));
 
-    bool stable = false;//是否收敛
+    bool stable = false;//whether converged
     while (!stable) {
-        //---策略评估---
+        //---policy evaluation---
         while (1) {
             double delta = 0.0;
             for (int r = 0; r < ROWS; ++r) {
@@ -34,10 +34,10 @@ void policy_iteration(const Grid& grid,std::vector<std::vector<double>>& V,std::
                     V[r][c] = new_val;
                 }
             }
-            //评估收敛：这个就是迭代法求贝尔曼方程，最终V收敛到状态值
+            //evaluation convergence: this is the iteration method to solve the Bellman equation, and V finally converges to the state value
             if (delta < THETA) break;
         }
-        //---策略改进---
+        //---policy improvement---
         stable = true;
         for (int r = 0; r < ROWS; ++r) {
             for (int c = 0; c < COLS; ++c) {

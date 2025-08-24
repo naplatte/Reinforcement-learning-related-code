@@ -1,0 +1,4 @@
+"D:\Clion\CLion 2025.1.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=D:/Clion/CLion 2025.1.1/bin/ninja/win/x64/ninja.exe" -G Ninja -S "D:\Reinforcement learning related code" -B "D:\Reinforcement learning related code\cmake-build-debug"
+-- Configuring done (1.3s)
+-- Generating done (0.5s)
+-- Build files have been written to: D:/Reinforcement learning related code/cmake-build-debug

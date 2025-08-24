@@ -1,0 +1,3703 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "D:/cmake/share/cmake-4.1/Modules/"
+    found: "D:/cmake/share/cmake-4.1/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Python38\\Scripts\\"
+        - "D:\\Python38\\"
+        - "D:\\CUDA\\bin"
+        - "D:\\CUDA\\libnvvp"
+        - "C:\\Windows\\System32"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\mingw64\\libexec\\git-core"
+        - "C:\\Windows"
+        - "D:\\Nodejs\\"
+        - "D:\\Nodejs\\node_modules\\npm"
+        - "D:\\sqlite"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2021.1.0\\"
+        - "D:\\ssh\\bin"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "D:\\vcpkg"
+        - "D:\\cmake\\bin"
+        - "C:\\Users\\cuihs\\.cargo\\bin"
+        - "C:\\Users\\cuihs\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "D:\\Python38\\Scripts\\"
+        - "D:\\Python38\\"
+        - "D:\\CUDA\\bin"
+        - "D:\\CUDA\\libnvvp"
+        - "C:\\Windows\\System32"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\mingw64\\libexec\\git-core"
+        - "C:\\Windows"
+        - "D:\\Nodejs\\"
+        - "D:\\Nodejs\\node_modules\\npm"
+        - "D:\\sqlite"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2021.1.0\\"
+        - "D:\\ssh\\bin"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "D:\\vcpkg"
+        - "D:\\cmake\\bin"
+        - "D:\\maven\\apache-maven-3.8.8\\bin"
+        - "D:\\vscode\\Microsoft VS Code\\bin"
+        - "D:\\Git\u5b89\u88c5\\Git\\bin\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Nodejs\\node_global"
+        - "D:\\Clion\\CLion 2025.1.1\\bin"
+        - "D:\\Pycharm\\PyCharm 2025.1.1\\bin"
+        - "D:\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\cuihs\\AppData\\Local\\GitHubDesktop\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Reinforcement_learning_related_code"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/Clion/CLion 2025.1.1/bin/mingw/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "D:/cmake/share/cmake-4.1/Modules/"
+    found: "D:/cmake/share/cmake-4.1/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Python38\\Scripts\\"
+        - "D:\\Python38\\"
+        - "D:\\CUDA\\bin"
+        - "D:\\CUDA\\libnvvp"
+        - "C:\\Windows\\System32"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\mingw64\\libexec\\git-core"
+        - "C:\\Windows"
+        - "D:\\Nodejs\\"
+        - "D:\\Nodejs\\node_modules\\npm"
+        - "D:\\sqlite"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2021.1.0\\"
+        - "D:\\ssh\\bin"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "D:\\vcpkg"
+        - "D:\\cmake\\bin"
+        - "C:\\Users\\cuihs\\.cargo\\bin"
+        - "C:\\Users\\cuihs\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "D:\\Python38\\Scripts\\"
+        - "D:\\Python38\\"
+        - "D:\\CUDA\\bin"
+        - "D:\\CUDA\\libnvvp"
+        - "C:\\Windows\\System32"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\mingw64\\libexec\\git-core"
+        - "C:\\Windows"
+        - "D:\\Nodejs\\"
+        - "D:\\Nodejs\\node_modules\\npm"
+        - "D:\\sqlite"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2021.1.0\\"
+        - "D:\\ssh\\bin"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "D:\\vcpkg"
+        - "D:\\cmake\\bin"
+        - "D:\\maven\\apache-maven-3.8.8\\bin"
+        - "D:\\vscode\\Microsoft VS Code\\bin"
+        - "D:\\Git\u5b89\u88c5\\Git\\bin\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Nodejs\\node_global"
+        - "D:\\Clion\\CLion 2025.1.1\\bin"
+        - "D:\\Pycharm\\PyCharm 2025.1.1\\bin"
+        - "D:\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\cuihs\\AppData\\Local\\GitHubDesktop\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Reinforcement_learning_related_code"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/Clion/CLion 2025.1.1/bin/mingw/bin/gcc.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "D:/cmake/share/cmake-4.1/Modules/"
+    found: "D:/cmake/share/cmake-4.1/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Python38\\Scripts\\"
+        - "D:\\Python38\\"
+        - "D:\\CUDA\\bin"
+        - "D:\\CUDA\\libnvvp"
+        - "C:\\Windows\\System32"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\mingw64\\libexec\\git-core"
+        - "C:\\Windows"
+        - "D:\\Nodejs\\"
+        - "D:\\Nodejs\\node_modules\\npm"
+        - "D:\\sqlite"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2021.1.0\\"
+        - "D:\\ssh\\bin"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "D:\\vcpkg"
+        - "D:\\cmake\\bin"
+        - "C:\\Users\\cuihs\\.cargo\\bin"
+        - "C:\\Users\\cuihs\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "D:\\Python38\\Scripts\\"
+        - "D:\\Python38\\"
+        - "D:\\CUDA\\bin"
+        - "D:\\CUDA\\libnvvp"
+        - "C:\\Windows\\System32"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\mingw64\\libexec\\git-core"
+        - "C:\\Windows"
+        - "D:\\Nodejs\\"
+        - "D:\\Nodejs\\node_modules\\npm"
+        - "D:\\sqlite"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2021.1.0\\"
+        - "D:\\ssh\\bin"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "D:\\vcpkg"
+        - "D:\\cmake\\bin"
+        - "D:\\maven\\apache-maven-3.8.8\\bin"
+        - "D:\\vscode\\Microsoft VS Code\\bin"
+        - "D:\\Git\u5b89\u88c5\\Git\\bin\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Nodejs\\node_global"
+        - "D:\\Clion\\CLion 2025.1.1\\bin"
+        - "D:\\Pycharm\\PyCharm 2025.1.1\\bin"
+        - "D:\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\cuihs\\AppData\\Local\\GitHubDesktop\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Reinforcement_learning_related_code"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/Clion/CLion 2025.1.1/bin/mingw/bin/gcc.exe 
+      Build flags: 
+      Id flags: -Aa 
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "D:/cmake/share/cmake-4.1/Modules/"
+    found: "D:/cmake/share/cmake-4.1/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Python38\\Scripts\\"
+        - "D:\\Python38\\"
+        - "D:\\CUDA\\bin"
+        - "D:\\CUDA\\libnvvp"
+        - "C:\\Windows\\System32"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\mingw64\\libexec\\git-core"
+        - "C:\\Windows"
+        - "D:\\Nodejs\\"
+        - "D:\\Nodejs\\node_modules\\npm"
+        - "D:\\sqlite"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2021.1.0\\"
+        - "D:\\ssh\\bin"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "D:\\vcpkg"
+        - "D:\\cmake\\bin"
+        - "C:\\Users\\cuihs\\.cargo\\bin"
+        - "C:\\Users\\cuihs\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "D:\\Python38\\Scripts\\"
+        - "D:\\Python38\\"
+        - "D:\\CUDA\\bin"
+        - "D:\\CUDA\\libnvvp"
+        - "C:\\Windows\\System32"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\mingw64\\libexec\\git-core"
+        - "C:\\Windows"
+        - "D:\\Nodejs\\"
+        - "D:\\Nodejs\\node_modules\\npm"
+        - "D:\\sqlite"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2021.1.0\\"
+        - "D:\\ssh\\bin"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "D:\\vcpkg"
+        - "D:\\cmake\\bin"
+        - "D:\\maven\\apache-maven-3.8.8\\bin"
+        - "D:\\vscode\\Microsoft VS Code\\bin"
+        - "D:\\Git\u5b89\u88c5\\Git\\bin\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Nodejs\\node_global"
+        - "D:\\Clion\\CLion 2025.1.1\\bin"
+        - "D:\\Pycharm\\PyCharm 2025.1.1\\bin"
+        - "D:\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\cuihs\\AppData\\Local\\GitHubDesktop\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Reinforcement_learning_related_code"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/Clion/CLion 2025.1.1/bin/mingw/bin/gcc.exe 
+      Build flags: 
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "D:/cmake/share/cmake-4.1/Modules/"
+    found: "D:/cmake/share/cmake-4.1/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Python38\\Scripts\\"
+        - "D:\\Python38\\"
+        - "D:\\CUDA\\bin"
+        - "D:\\CUDA\\libnvvp"
+        - "C:\\Windows\\System32"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\mingw64\\libexec\\git-core"
+        - "C:\\Windows"
+        - "D:\\Nodejs\\"
+        - "D:\\Nodejs\\node_modules\\npm"
+        - "D:\\sqlite"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2021.1.0\\"
+        - "D:\\ssh\\bin"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "D:\\vcpkg"
+        - "D:\\cmake\\bin"
+        - "C:\\Users\\cuihs\\.cargo\\bin"
+        - "C:\\Users\\cuihs\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "D:\\Python38\\Scripts\\"
+        - "D:\\Python38\\"
+        - "D:\\CUDA\\bin"
+        - "D:\\CUDA\\libnvvp"
+        - "C:\\Windows\\System32"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\mingw64\\libexec\\git-core"
+        - "C:\\Windows"
+        - "D:\\Nodejs\\"
+        - "D:\\Nodejs\\node_modules\\npm"
+        - "D:\\sqlite"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2021.1.0\\"
+        - "D:\\ssh\\bin"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "D:\\vcpkg"
+        - "D:\\cmake\\bin"
+        - "D:\\maven\\apache-maven-3.8.8\\bin"
+        - "D:\\vscode\\Microsoft VS Code\\bin"
+        - "D:\\Git\u5b89\u88c5\\Git\\bin\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Nodejs\\node_global"
+        - "D:\\Clion\\CLion 2025.1.1\\bin"
+        - "D:\\Pycharm\\PyCharm 2025.1.1\\bin"
+        - "D:\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\cuihs\\AppData\\Local\\GitHubDesktop\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Reinforcement_learning_related_code"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/Clion/CLion 2025.1.1/bin/mingw/bin/gcc.exe 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      1
+      gcc.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      gcc.exe: error: unrecognized command-line option '--target=arm-arm-none-eabi'
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "D:/cmake/share/cmake-4.1/Modules/"
+    found: "D:/cmake/share/cmake-4.1/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Python38\\Scripts\\"
+        - "D:\\Python38\\"
+        - "D:\\CUDA\\bin"
+        - "D:\\CUDA\\libnvvp"
+        - "C:\\Windows\\System32"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\mingw64\\libexec\\git-core"
+        - "C:\\Windows"
+        - "D:\\Nodejs\\"
+        - "D:\\Nodejs\\node_modules\\npm"
+        - "D:\\sqlite"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2021.1.0\\"
+        - "D:\\ssh\\bin"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "D:\\vcpkg"
+        - "D:\\cmake\\bin"
+        - "C:\\Users\\cuihs\\.cargo\\bin"
+        - "C:\\Users\\cuihs\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "D:\\Python38\\Scripts\\"
+        - "D:\\Python38\\"
+        - "D:\\CUDA\\bin"
+        - "D:\\CUDA\\libnvvp"
+        - "C:\\Windows\\System32"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\mingw64\\libexec\\git-core"
+        - "C:\\Windows"
+        - "D:\\Nodejs\\"
+        - "D:\\Nodejs\\node_modules\\npm"
+        - "D:\\sqlite"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2021.1.0\\"
+        - "D:\\ssh\\bin"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "D:\\vcpkg"
+        - "D:\\cmake\\bin"
+        - "D:\\maven\\apache-maven-3.8.8\\bin"
+        - "D:\\vscode\\Microsoft VS Code\\bin"
+        - "D:\\Git\u5b89\u88c5\\Git\\bin\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Nodejs\\node_global"
+        - "D:\\Clion\\CLion 2025.1.1\\bin"
+        - "D:\\Pycharm\\PyCharm 2025.1.1\\bin"
+        - "D:\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\cuihs\\AppData\\Local\\GitHubDesktop\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Reinforcement_learning_related_code"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/Clion/CLion 2025.1.1/bin/mingw/bin/gcc.exe 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "D:/cmake/share/cmake-4.1/Modules/"
+    found: "D:/cmake/share/cmake-4.1/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Python38\\Scripts\\"
+        - "D:\\Python38\\"
+        - "D:\\CUDA\\bin"
+        - "D:\\CUDA\\libnvvp"
+        - "C:\\Windows\\System32"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\mingw64\\libexec\\git-core"
+        - "C:\\Windows"
+        - "D:\\Nodejs\\"
+        - "D:\\Nodejs\\node_modules\\npm"
+        - "D:\\sqlite"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2021.1.0\\"
+        - "D:\\ssh\\bin"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "D:\\vcpkg"
+        - "D:\\cmake\\bin"
+        - "C:\\Users\\cuihs\\.cargo\\bin"
+        - "C:\\Users\\cuihs\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "D:\\Python38\\Scripts\\"
+        - "D:\\Python38\\"
+        - "D:\\CUDA\\bin"
+        - "D:\\CUDA\\libnvvp"
+        - "C:\\Windows\\System32"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\mingw64\\libexec\\git-core"
+        - "C:\\Windows"
+        - "D:\\Nodejs\\"
+        - "D:\\Nodejs\\node_modules\\npm"
+        - "D:\\sqlite"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2021.1.0\\"
+        - "D:\\ssh\\bin"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "D:\\vcpkg"
+        - "D:\\cmake\\bin"
+        - "D:\\maven\\apache-maven-3.8.8\\bin"
+        - "D:\\vscode\\Microsoft VS Code\\bin"
+        - "D:\\Git\u5b89\u88c5\\Git\\bin\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Nodejs\\node_global"
+        - "D:\\Clion\\CLion 2025.1.1\\bin"
+        - "D:\\Pycharm\\PyCharm 2025.1.1\\bin"
+        - "D:\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\cuihs\\AppData\\Local\\GitHubDesktop\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Reinforcement_learning_related_code"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/Clion/CLion 2025.1.1/bin/mingw/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "D:/cmake/share/cmake-4.1/Modules/"
+    found: "D:/cmake/share/cmake-4.1/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Python38\\Scripts\\"
+        - "D:\\Python38\\"
+        - "D:\\CUDA\\bin"
+        - "D:\\CUDA\\libnvvp"
+        - "C:\\Windows\\System32"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\mingw64\\libexec\\git-core"
+        - "C:\\Windows"
+        - "D:\\Nodejs\\"
+        - "D:\\Nodejs\\node_modules\\npm"
+        - "D:\\sqlite"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2021.1.0\\"
+        - "D:\\ssh\\bin"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "D:\\vcpkg"
+        - "D:\\cmake\\bin"
+        - "C:\\Users\\cuihs\\.cargo\\bin"
+        - "C:\\Users\\cuihs\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "D:\\Python38\\Scripts\\"
+        - "D:\\Python38\\"
+        - "D:\\CUDA\\bin"
+        - "D:\\CUDA\\libnvvp"
+        - "C:\\Windows\\System32"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\mingw64\\libexec\\git-core"
+        - "C:\\Windows"
+        - "D:\\Nodejs\\"
+        - "D:\\Nodejs\\node_modules\\npm"
+        - "D:\\sqlite"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2021.1.0\\"
+        - "D:\\ssh\\bin"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "D:\\vcpkg"
+        - "D:\\cmake\\bin"
+        - "D:\\maven\\apache-maven-3.8.8\\bin"
+        - "D:\\vscode\\Microsoft VS Code\\bin"
+        - "D:\\Git\u5b89\u88c5\\Git\\bin\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Nodejs\\node_global"
+        - "D:\\Clion\\CLion 2025.1.1\\bin"
+        - "D:\\Pycharm\\PyCharm 2025.1.1\\bin"
+        - "D:\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\cuihs\\AppData\\Local\\GitHubDesktop\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Reinforcement_learning_related_code"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/Clion/CLion 2025.1.1/bin/mingw/bin/gcc.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "D:/cmake/share/cmake-4.1/Modules/"
+    found: "D:/cmake/share/cmake-4.1/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Python38\\Scripts\\"
+        - "D:\\Python38\\"
+        - "D:\\CUDA\\bin"
+        - "D:\\CUDA\\libnvvp"
+        - "C:\\Windows\\System32"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\mingw64\\libexec\\git-core"
+        - "C:\\Windows"
+        - "D:\\Nodejs\\"
+        - "D:\\Nodejs\\node_modules\\npm"
+        - "D:\\sqlite"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2021.1.0\\"
+        - "D:\\ssh\\bin"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "D:\\vcpkg"
+        - "D:\\cmake\\bin"
+        - "C:\\Users\\cuihs\\.cargo\\bin"
+        - "C:\\Users\\cuihs\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "D:\\Python38\\Scripts\\"
+        - "D:\\Python38\\"
+        - "D:\\CUDA\\bin"
+        - "D:\\CUDA\\libnvvp"
+        - "C:\\Windows\\System32"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\mingw64\\libexec\\git-core"
+        - "C:\\Windows"
+        - "D:\\Nodejs\\"
+        - "D:\\Nodejs\\node_modules\\npm"
+        - "D:\\sqlite"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2021.1.0\\"
+        - "D:\\ssh\\bin"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "D:\\vcpkg"
+        - "D:\\cmake\\bin"
+        - "D:\\maven\\apache-maven-3.8.8\\bin"
+        - "D:\\vscode\\Microsoft VS Code\\bin"
+        - "D:\\Git\u5b89\u88c5\\Git\\bin\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Nodejs\\node_global"
+        - "D:\\Clion\\CLion 2025.1.1\\bin"
+        - "D:\\Pycharm\\PyCharm 2025.1.1\\bin"
+        - "D:\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\cuihs\\AppData\\Local\\GitHubDesktop\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Reinforcement_learning_related_code"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/Clion/CLion 2025.1.1/bin/mingw/bin/gcc.exe 
+      Build flags: 
+      Id flags: -Aa 
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "D:/cmake/share/cmake-4.1/Modules/"
+    found: "D:/cmake/share/cmake-4.1/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Python38\\Scripts\\"
+        - "D:\\Python38\\"
+        - "D:\\CUDA\\bin"
+        - "D:\\CUDA\\libnvvp"
+        - "C:\\Windows\\System32"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\mingw64\\libexec\\git-core"
+        - "C:\\Windows"
+        - "D:\\Nodejs\\"
+        - "D:\\Nodejs\\node_modules\\npm"
+        - "D:\\sqlite"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2021.1.0\\"
+        - "D:\\ssh\\bin"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "D:\\vcpkg"
+        - "D:\\cmake\\bin"
+        - "C:\\Users\\cuihs\\.cargo\\bin"
+        - "C:\\Users\\cuihs\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "D:\\Python38\\Scripts\\"
+        - "D:\\Python38\\"
+        - "D:\\CUDA\\bin"
+        - "D:\\CUDA\\libnvvp"
+        - "C:\\Windows\\System32"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\mingw64\\libexec\\git-core"
+        - "C:\\Windows"
+        - "D:\\Nodejs\\"
+        - "D:\\Nodejs\\node_modules\\npm"
+        - "D:\\sqlite"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2021.1.0\\"
+        - "D:\\ssh\\bin"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "D:\\vcpkg"
+        - "D:\\cmake\\bin"
+        - "D:\\maven\\apache-maven-3.8.8\\bin"
+        - "D:\\vscode\\Microsoft VS Code\\bin"
+        - "D:\\Git\u5b89\u88c5\\Git\\bin\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Nodejs\\node_global"
+        - "D:\\Clion\\CLion 2025.1.1\\bin"
+        - "D:\\Pycharm\\PyCharm 2025.1.1\\bin"
+        - "D:\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\cuihs\\AppData\\Local\\GitHubDesktop\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Reinforcement_learning_related_code"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/Clion/CLion 2025.1.1/bin/mingw/bin/gcc.exe 
+      Build flags: 
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "D:/cmake/share/cmake-4.1/Modules/"
+    found: "D:/cmake/share/cmake-4.1/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Python38\\Scripts\\"
+        - "D:\\Python38\\"
+        - "D:\\CUDA\\bin"
+        - "D:\\CUDA\\libnvvp"
+        - "C:\\Windows\\System32"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\mingw64\\libexec\\git-core"
+        - "C:\\Windows"
+        - "D:\\Nodejs\\"
+        - "D:\\Nodejs\\node_modules\\npm"
+        - "D:\\sqlite"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2021.1.0\\"
+        - "D:\\ssh\\bin"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "D:\\vcpkg"
+        - "D:\\cmake\\bin"
+        - "C:\\Users\\cuihs\\.cargo\\bin"
+        - "C:\\Users\\cuihs\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "D:\\Python38\\Scripts\\"
+        - "D:\\Python38\\"
+        - "D:\\CUDA\\bin"
+        - "D:\\CUDA\\libnvvp"
+        - "C:\\Windows\\System32"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\mingw64\\libexec\\git-core"
+        - "C:\\Windows"
+        - "D:\\Nodejs\\"
+        - "D:\\Nodejs\\node_modules\\npm"
+        - "D:\\sqlite"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2021.1.0\\"
+        - "D:\\ssh\\bin"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "D:\\vcpkg"
+        - "D:\\cmake\\bin"
+        - "D:\\maven\\apache-maven-3.8.8\\bin"
+        - "D:\\vscode\\Microsoft VS Code\\bin"
+        - "D:\\Git\u5b89\u88c5\\Git\\bin\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Nodejs\\node_global"
+        - "D:\\Clion\\CLion 2025.1.1\\bin"
+        - "D:\\Pycharm\\PyCharm 2025.1.1\\bin"
+        - "D:\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\cuihs\\AppData\\Local\\GitHubDesktop\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Reinforcement_learning_related_code"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/Clion/CLion 2025.1.1/bin/mingw/bin/gcc.exe 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      1
+      gcc.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      gcc.exe: error: unrecognized command-line option '--target=arm-arm-none-eabi'
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "D:/cmake/share/cmake-4.1/Modules/"
+    found: "D:/cmake/share/cmake-4.1/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Python38\\Scripts\\"
+        - "D:\\Python38\\"
+        - "D:\\CUDA\\bin"
+        - "D:\\CUDA\\libnvvp"
+        - "C:\\Windows\\System32"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\mingw64\\libexec\\git-core"
+        - "C:\\Windows"
+        - "D:\\Nodejs\\"
+        - "D:\\Nodejs\\node_modules\\npm"
+        - "D:\\sqlite"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2021.1.0\\"
+        - "D:\\ssh\\bin"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "D:\\vcpkg"
+        - "D:\\cmake\\bin"
+        - "C:\\Users\\cuihs\\.cargo\\bin"
+        - "C:\\Users\\cuihs\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "D:\\Python38\\Scripts\\"
+        - "D:\\Python38\\"
+        - "D:\\CUDA\\bin"
+        - "D:\\CUDA\\libnvvp"
+        - "C:\\Windows\\System32"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\mingw64\\libexec\\git-core"
+        - "C:\\Windows"
+        - "D:\\Nodejs\\"
+        - "D:\\Nodejs\\node_modules\\npm"
+        - "D:\\sqlite"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2021.1.0\\"
+        - "D:\\ssh\\bin"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "D:\\vcpkg"
+        - "D:\\cmake\\bin"
+        - "D:\\maven\\apache-maven-3.8.8\\bin"
+        - "D:\\vscode\\Microsoft VS Code\\bin"
+        - "D:\\Git\u5b89\u88c5\\Git\\bin\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Nodejs\\node_global"
+        - "D:\\Clion\\CLion 2025.1.1\\bin"
+        - "D:\\Pycharm\\PyCharm 2025.1.1\\bin"
+        - "D:\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\cuihs\\AppData\\Local\\GitHubDesktop\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Reinforcement_learning_related_code"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/Clion/CLion 2025.1.1/bin/mingw/bin/gcc.exe 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+      gcc.exe: fatal error: no input files
+      compilation terminated.
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+      gcc.exe: fatal error: no input files
+      compilation terminated.
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "D:/cmake/share/cmake-4.1/Modules/"
+    found: "D:/cmake/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Python38\\Scripts\\"
+        - "D:\\Python38\\"
+        - "D:\\CUDA\\bin"
+        - "D:\\CUDA\\libnvvp"
+        - "C:\\Windows\\System32"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\mingw64\\libexec\\git-core"
+        - "C:\\Windows"
+        - "D:\\Nodejs\\"
+        - "D:\\Nodejs\\node_modules\\npm"
+        - "D:\\sqlite"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2021.1.0\\"
+        - "D:\\ssh\\bin"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "D:\\vcpkg"
+        - "D:\\cmake\\bin"
+        - "C:\\Users\\cuihs\\.cargo\\bin"
+        - "C:\\Users\\cuihs\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "D:\\Python38\\Scripts\\"
+        - "D:\\Python38\\"
+        - "D:\\CUDA\\bin"
+        - "D:\\CUDA\\libnvvp"
+        - "C:\\Windows\\System32"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\mingw64\\libexec\\git-core"
+        - "C:\\Windows"
+        - "D:\\Nodejs\\"
+        - "D:\\Nodejs\\node_modules\\npm"
+        - "D:\\sqlite"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2021.1.0\\"
+        - "D:\\ssh\\bin"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "D:\\vcpkg"
+        - "D:\\cmake\\bin"
+        - "D:\\maven\\apache-maven-3.8.8\\bin"
+        - "D:\\vscode\\Microsoft VS Code\\bin"
+        - "D:\\Git\u5b89\u88c5\\Git\\bin\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Nodejs\\node_global"
+        - "D:\\Clion\\CLion 2025.1.1\\bin"
+        - "D:\\Pycharm\\PyCharm 2025.1.1\\bin"
+        - "D:\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\cuihs\\AppData\\Local\\GitHubDesktop\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Reinforcement_learning_related_code"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: D:/Clion/CLion 2025.1.1/bin/mingw/bin/g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "D:/cmake/share/cmake-4.1/Modules/"
+    found: "D:/cmake/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Python38\\Scripts\\"
+        - "D:\\Python38\\"
+        - "D:\\CUDA\\bin"
+        - "D:\\CUDA\\libnvvp"
+        - "C:\\Windows\\System32"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\mingw64\\libexec\\git-core"
+        - "C:\\Windows"
+        - "D:\\Nodejs\\"
+        - "D:\\Nodejs\\node_modules\\npm"
+        - "D:\\sqlite"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2021.1.0\\"
+        - "D:\\ssh\\bin"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "D:\\vcpkg"
+        - "D:\\cmake\\bin"
+        - "C:\\Users\\cuihs\\.cargo\\bin"
+        - "C:\\Users\\cuihs\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "D:\\Python38\\Scripts\\"
+        - "D:\\Python38\\"
+        - "D:\\CUDA\\bin"
+        - "D:\\CUDA\\libnvvp"
+        - "C:\\Windows\\System32"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\mingw64\\libexec\\git-core"
+        - "C:\\Windows"
+        - "D:\\Nodejs\\"
+        - "D:\\Nodejs\\node_modules\\npm"
+        - "D:\\sqlite"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2021.1.0\\"
+        - "D:\\ssh\\bin"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "D:\\vcpkg"
+        - "D:\\cmake\\bin"
+        - "D:\\maven\\apache-maven-3.8.8\\bin"
+        - "D:\\vscode\\Microsoft VS Code\\bin"
+        - "D:\\Git\u5b89\u88c5\\Git\\bin\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Nodejs\\node_global"
+        - "D:\\Clion\\CLion 2025.1.1\\bin"
+        - "D:\\Pycharm\\PyCharm 2025.1.1\\bin"
+        - "D:\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\cuihs\\AppData\\Local\\GitHubDesktop\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Reinforcement_learning_related_code"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: D:/Clion/CLion 2025.1.1/bin/mingw/bin/g++.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "D:/cmake/share/cmake-4.1/Modules/"
+    found: "D:/cmake/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Python38\\Scripts\\"
+        - "D:\\Python38\\"
+        - "D:\\CUDA\\bin"
+        - "D:\\CUDA\\libnvvp"
+        - "C:\\Windows\\System32"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\mingw64\\libexec\\git-core"
+        - "C:\\Windows"
+        - "D:\\Nodejs\\"
+        - "D:\\Nodejs\\node_modules\\npm"
+        - "D:\\sqlite"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2021.1.0\\"
+        - "D:\\ssh\\bin"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "D:\\vcpkg"
+        - "D:\\cmake\\bin"
+        - "C:\\Users\\cuihs\\.cargo\\bin"
+        - "C:\\Users\\cuihs\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "D:\\Python38\\Scripts\\"
+        - "D:\\Python38\\"
+        - "D:\\CUDA\\bin"
+        - "D:\\CUDA\\libnvvp"
+        - "C:\\Windows\\System32"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\mingw64\\libexec\\git-core"
+        - "C:\\Windows"
+        - "D:\\Nodejs\\"
+        - "D:\\Nodejs\\node_modules\\npm"
+        - "D:\\sqlite"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2021.1.0\\"
+        - "D:\\ssh\\bin"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "D:\\vcpkg"
+        - "D:\\cmake\\bin"
+        - "D:\\maven\\apache-maven-3.8.8\\bin"
+        - "D:\\vscode\\Microsoft VS Code\\bin"
+        - "D:\\Git\u5b89\u88c5\\Git\\bin\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Nodejs\\node_global"
+        - "D:\\Clion\\CLion 2025.1.1\\bin"
+        - "D:\\Pycharm\\PyCharm 2025.1.1\\bin"
+        - "D:\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\cuihs\\AppData\\Local\\GitHubDesktop\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Reinforcement_learning_related_code"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: D:/Clion/CLion 2025.1.1/bin/mingw/bin/g++.exe 
+      Build flags: 
+      Id flags: --c++ 
+      
+      The output was:
+      1
+      g++.exe: error: unrecognized command-line option '--c++'
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "D:/cmake/share/cmake-4.1/Modules/"
+    found: "D:/cmake/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Python38\\Scripts\\"
+        - "D:\\Python38\\"
+        - "D:\\CUDA\\bin"
+        - "D:\\CUDA\\libnvvp"
+        - "C:\\Windows\\System32"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\mingw64\\libexec\\git-core"
+        - "C:\\Windows"
+        - "D:\\Nodejs\\"
+        - "D:\\Nodejs\\node_modules\\npm"
+        - "D:\\sqlite"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2021.1.0\\"
+        - "D:\\ssh\\bin"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "D:\\vcpkg"
+        - "D:\\cmake\\bin"
+        - "C:\\Users\\cuihs\\.cargo\\bin"
+        - "C:\\Users\\cuihs\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "D:\\Python38\\Scripts\\"
+        - "D:\\Python38\\"
+        - "D:\\CUDA\\bin"
+        - "D:\\CUDA\\libnvvp"
+        - "C:\\Windows\\System32"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\mingw64\\libexec\\git-core"
+        - "C:\\Windows"
+        - "D:\\Nodejs\\"
+        - "D:\\Nodejs\\node_modules\\npm"
+        - "D:\\sqlite"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2021.1.0\\"
+        - "D:\\ssh\\bin"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "D:\\vcpkg"
+        - "D:\\cmake\\bin"
+        - "D:\\maven\\apache-maven-3.8.8\\bin"
+        - "D:\\vscode\\Microsoft VS Code\\bin"
+        - "D:\\Git\u5b89\u88c5\\Git\\bin\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Nodejs\\node_global"
+        - "D:\\Clion\\CLion 2025.1.1\\bin"
+        - "D:\\Pycharm\\PyCharm 2025.1.1\\bin"
+        - "D:\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\cuihs\\AppData\\Local\\GitHubDesktop\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Reinforcement_learning_related_code"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: D:/Clion/CLion 2025.1.1/bin/mingw/bin/g++.exe 
+      Build flags: 
+      Id flags: --ec++ 
+      
+      The output was:
+      1
+      g++.exe: error: unrecognized command-line option '--ec++'; did you mean '-Weffc++'?
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "D:/cmake/share/cmake-4.1/Modules/"
+    found: "D:/cmake/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Python38\\Scripts\\"
+        - "D:\\Python38\\"
+        - "D:\\CUDA\\bin"
+        - "D:\\CUDA\\libnvvp"
+        - "C:\\Windows\\System32"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\mingw64\\libexec\\git-core"
+        - "C:\\Windows"
+        - "D:\\Nodejs\\"
+        - "D:\\Nodejs\\node_modules\\npm"
+        - "D:\\sqlite"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2021.1.0\\"
+        - "D:\\ssh\\bin"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "D:\\vcpkg"
+        - "D:\\cmake\\bin"
+        - "C:\\Users\\cuihs\\.cargo\\bin"
+        - "C:\\Users\\cuihs\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "D:\\Python38\\Scripts\\"
+        - "D:\\Python38\\"
+        - "D:\\CUDA\\bin"
+        - "D:\\CUDA\\libnvvp"
+        - "C:\\Windows\\System32"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\mingw64\\libexec\\git-core"
+        - "C:\\Windows"
+        - "D:\\Nodejs\\"
+        - "D:\\Nodejs\\node_modules\\npm"
+        - "D:\\sqlite"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2021.1.0\\"
+        - "D:\\ssh\\bin"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "D:\\vcpkg"
+        - "D:\\cmake\\bin"
+        - "D:\\maven\\apache-maven-3.8.8\\bin"
+        - "D:\\vscode\\Microsoft VS Code\\bin"
+        - "D:\\Git\u5b89\u88c5\\Git\\bin\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Nodejs\\node_global"
+        - "D:\\Clion\\CLion 2025.1.1\\bin"
+        - "D:\\Pycharm\\PyCharm 2025.1.1\\bin"
+        - "D:\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\cuihs\\AppData\\Local\\GitHubDesktop\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Reinforcement_learning_related_code"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: D:/Clion/CLion 2025.1.1/bin/mingw/bin/g++.exe 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      1
+      g++.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      g++.exe: error: unrecognized command-line option '--target=arm-arm-none-eabi'
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "D:/cmake/share/cmake-4.1/Modules/"
+    found: "D:/cmake/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Python38\\Scripts\\"
+        - "D:\\Python38\\"
+        - "D:\\CUDA\\bin"
+        - "D:\\CUDA\\libnvvp"
+        - "C:\\Windows\\System32"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\mingw64\\libexec\\git-core"
+        - "C:\\Windows"
+        - "D:\\Nodejs\\"
+        - "D:\\Nodejs\\node_modules\\npm"
+        - "D:\\sqlite"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2021.1.0\\"
+        - "D:\\ssh\\bin"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "D:\\vcpkg"
+        - "D:\\cmake\\bin"
+        - "C:\\Users\\cuihs\\.cargo\\bin"
+        - "C:\\Users\\cuihs\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "D:\\Python38\\Scripts\\"
+        - "D:\\Python38\\"
+        - "D:\\CUDA\\bin"
+        - "D:\\CUDA\\libnvvp"
+        - "C:\\Windows\\System32"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\mingw64\\libexec\\git-core"
+        - "C:\\Windows"
+        - "D:\\Nodejs\\"
+        - "D:\\Nodejs\\node_modules\\npm"
+        - "D:\\sqlite"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2021.1.0\\"
+        - "D:\\ssh\\bin"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "D:\\vcpkg"
+        - "D:\\cmake\\bin"
+        - "D:\\maven\\apache-maven-3.8.8\\bin"
+        - "D:\\vscode\\Microsoft VS Code\\bin"
+        - "D:\\Git\u5b89\u88c5\\Git\\bin\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Nodejs\\node_global"
+        - "D:\\Clion\\CLion 2025.1.1\\bin"
+        - "D:\\Pycharm\\PyCharm 2025.1.1\\bin"
+        - "D:\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\cuihs\\AppData\\Local\\GitHubDesktop\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Reinforcement_learning_related_code"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: D:/Clion/CLion 2025.1.1/bin/mingw/bin/g++.exe 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "D:/cmake/share/cmake-4.1/Modules/"
+    found: "D:/cmake/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Python38\\Scripts\\"
+        - "D:\\Python38\\"
+        - "D:\\CUDA\\bin"
+        - "D:\\CUDA\\libnvvp"
+        - "C:\\Windows\\System32"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\mingw64\\libexec\\git-core"
+        - "C:\\Windows"
+        - "D:\\Nodejs\\"
+        - "D:\\Nodejs\\node_modules\\npm"
+        - "D:\\sqlite"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2021.1.0\\"
+        - "D:\\ssh\\bin"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "D:\\vcpkg"
+        - "D:\\cmake\\bin"
+        - "C:\\Users\\cuihs\\.cargo\\bin"
+        - "C:\\Users\\cuihs\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "D:\\Python38\\Scripts\\"
+        - "D:\\Python38\\"
+        - "D:\\CUDA\\bin"
+        - "D:\\CUDA\\libnvvp"
+        - "C:\\Windows\\System32"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\mingw64\\libexec\\git-core"
+        - "C:\\Windows"
+        - "D:\\Nodejs\\"
+        - "D:\\Nodejs\\node_modules\\npm"
+        - "D:\\sqlite"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2021.1.0\\"
+        - "D:\\ssh\\bin"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "D:\\vcpkg"
+        - "D:\\cmake\\bin"
+        - "D:\\maven\\apache-maven-3.8.8\\bin"
+        - "D:\\vscode\\Microsoft VS Code\\bin"
+        - "D:\\Git\u5b89\u88c5\\Git\\bin\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Nodejs\\node_global"
+        - "D:\\Clion\\CLion 2025.1.1\\bin"
+        - "D:\\Pycharm\\PyCharm 2025.1.1\\bin"
+        - "D:\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\cuihs\\AppData\\Local\\GitHubDesktop\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Reinforcement_learning_related_code"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: D:/Clion/CLion 2025.1.1/bin/mingw/bin/g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "D:/cmake/share/cmake-4.1/Modules/"
+    found: "D:/cmake/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Python38\\Scripts\\"
+        - "D:\\Python38\\"
+        - "D:\\CUDA\\bin"
+        - "D:\\CUDA\\libnvvp"
+        - "C:\\Windows\\System32"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\mingw64\\libexec\\git-core"
+        - "C:\\Windows"
+        - "D:\\Nodejs\\"
+        - "D:\\Nodejs\\node_modules\\npm"
+        - "D:\\sqlite"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2021.1.0\\"
+        - "D:\\ssh\\bin"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "D:\\vcpkg"
+        - "D:\\cmake\\bin"
+        - "C:\\Users\\cuihs\\.cargo\\bin"
+        - "C:\\Users\\cuihs\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "D:\\Python38\\Scripts\\"
+        - "D:\\Python38\\"
+        - "D:\\CUDA\\bin"
+        - "D:\\CUDA\\libnvvp"
+        - "C:\\Windows\\System32"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\mingw64\\libexec\\git-core"
+        - "C:\\Windows"
+        - "D:\\Nodejs\\"
+        - "D:\\Nodejs\\node_modules\\npm"
+        - "D:\\sqlite"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2021.1.0\\"
+        - "D:\\ssh\\bin"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "D:\\vcpkg"
+        - "D:\\cmake\\bin"
+        - "D:\\maven\\apache-maven-3.8.8\\bin"
+        - "D:\\vscode\\Microsoft VS Code\\bin"
+        - "D:\\Git\u5b89\u88c5\\Git\\bin\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Nodejs\\node_global"
+        - "D:\\Clion\\CLion 2025.1.1\\bin"
+        - "D:\\Pycharm\\PyCharm 2025.1.1\\bin"
+        - "D:\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\cuihs\\AppData\\Local\\GitHubDesktop\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Reinforcement_learning_related_code"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: D:/Clion/CLion 2025.1.1/bin/mingw/bin/g++.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "D:/cmake/share/cmake-4.1/Modules/"
+    found: "D:/cmake/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Python38\\Scripts\\"
+        - "D:\\Python38\\"
+        - "D:\\CUDA\\bin"
+        - "D:\\CUDA\\libnvvp"
+        - "C:\\Windows\\System32"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\mingw64\\libexec\\git-core"
+        - "C:\\Windows"
+        - "D:\\Nodejs\\"
+        - "D:\\Nodejs\\node_modules\\npm"
+        - "D:\\sqlite"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2021.1.0\\"
+        - "D:\\ssh\\bin"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "D:\\vcpkg"
+        - "D:\\cmake\\bin"
+        - "C:\\Users\\cuihs\\.cargo\\bin"
+        - "C:\\Users\\cuihs\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "D:\\Python38\\Scripts\\"
+        - "D:\\Python38\\"
+        - "D:\\CUDA\\bin"
+        - "D:\\CUDA\\libnvvp"
+        - "C:\\Windows\\System32"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\mingw64\\libexec\\git-core"
+        - "C:\\Windows"
+        - "D:\\Nodejs\\"
+        - "D:\\Nodejs\\node_modules\\npm"
+        - "D:\\sqlite"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2021.1.0\\"
+        - "D:\\ssh\\bin"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "D:\\vcpkg"
+        - "D:\\cmake\\bin"
+        - "D:\\maven\\apache-maven-3.8.8\\bin"
+        - "D:\\vscode\\Microsoft VS Code\\bin"
+        - "D:\\Git\u5b89\u88c5\\Git\\bin\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Nodejs\\node_global"
+        - "D:\\Clion\\CLion 2025.1.1\\bin"
+        - "D:\\Pycharm\\PyCharm 2025.1.1\\bin"
+        - "D:\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\cuihs\\AppData\\Local\\GitHubDesktop\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Reinforcement_learning_related_code"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: D:/Clion/CLion 2025.1.1/bin/mingw/bin/g++.exe 
+      Build flags: 
+      Id flags: --c++ 
+      
+      The output was:
+      1
+      g++.exe: error: unrecognized command-line option '--c++'
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "D:/cmake/share/cmake-4.1/Modules/"
+    found: "D:/cmake/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Python38\\Scripts\\"
+        - "D:\\Python38\\"
+        - "D:\\CUDA\\bin"
+        - "D:\\CUDA\\libnvvp"
+        - "C:\\Windows\\System32"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\mingw64\\libexec\\git-core"
+        - "C:\\Windows"
+        - "D:\\Nodejs\\"
+        - "D:\\Nodejs\\node_modules\\npm"
+        - "D:\\sqlite"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2021.1.0\\"
+        - "D:\\ssh\\bin"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "D:\\vcpkg"
+        - "D:\\cmake\\bin"
+        - "C:\\Users\\cuihs\\.cargo\\bin"
+        - "C:\\Users\\cuihs\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "D:\\Python38\\Scripts\\"
+        - "D:\\Python38\\"
+        - "D:\\CUDA\\bin"
+        - "D:\\CUDA\\libnvvp"
+        - "C:\\Windows\\System32"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\mingw64\\libexec\\git-core"
+        - "C:\\Windows"
+        - "D:\\Nodejs\\"
+        - "D:\\Nodejs\\node_modules\\npm"
+        - "D:\\sqlite"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2021.1.0\\"
+        - "D:\\ssh\\bin"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "D:\\vcpkg"
+        - "D:\\cmake\\bin"
+        - "D:\\maven\\apache-maven-3.8.8\\bin"
+        - "D:\\vscode\\Microsoft VS Code\\bin"
+        - "D:\\Git\u5b89\u88c5\\Git\\bin\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Nodejs\\node_global"
+        - "D:\\Clion\\CLion 2025.1.1\\bin"
+        - "D:\\Pycharm\\PyCharm 2025.1.1\\bin"
+        - "D:\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\cuihs\\AppData\\Local\\GitHubDesktop\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Reinforcement_learning_related_code"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: D:/Clion/CLion 2025.1.1/bin/mingw/bin/g++.exe 
+      Build flags: 
+      Id flags: --ec++ 
+      
+      The output was:
+      1
+      g++.exe: error: unrecognized command-line option '--ec++'; did you mean '-Weffc++'?
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "D:/cmake/share/cmake-4.1/Modules/"
+    found: "D:/cmake/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Python38\\Scripts\\"
+        - "D:\\Python38\\"
+        - "D:\\CUDA\\bin"
+        - "D:\\CUDA\\libnvvp"
+        - "C:\\Windows\\System32"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\mingw64\\libexec\\git-core"
+        - "C:\\Windows"
+        - "D:\\Nodejs\\"
+        - "D:\\Nodejs\\node_modules\\npm"
+        - "D:\\sqlite"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2021.1.0\\"
+        - "D:\\ssh\\bin"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "D:\\vcpkg"
+        - "D:\\cmake\\bin"
+        - "C:\\Users\\cuihs\\.cargo\\bin"
+        - "C:\\Users\\cuihs\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "D:\\Python38\\Scripts\\"
+        - "D:\\Python38\\"
+        - "D:\\CUDA\\bin"
+        - "D:\\CUDA\\libnvvp"
+        - "C:\\Windows\\System32"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\mingw64\\libexec\\git-core"
+        - "C:\\Windows"
+        - "D:\\Nodejs\\"
+        - "D:\\Nodejs\\node_modules\\npm"
+        - "D:\\sqlite"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2021.1.0\\"
+        - "D:\\ssh\\bin"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "D:\\vcpkg"
+        - "D:\\cmake\\bin"
+        - "D:\\maven\\apache-maven-3.8.8\\bin"
+        - "D:\\vscode\\Microsoft VS Code\\bin"
+        - "D:\\Git\u5b89\u88c5\\Git\\bin\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Nodejs\\node_global"
+        - "D:\\Clion\\CLion 2025.1.1\\bin"
+        - "D:\\Pycharm\\PyCharm 2025.1.1\\bin"
+        - "D:\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\cuihs\\AppData\\Local\\GitHubDesktop\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Reinforcement_learning_related_code"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: D:/Clion/CLion 2025.1.1/bin/mingw/bin/g++.exe 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      1
+      g++.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      g++.exe: error: unrecognized command-line option '--target=arm-arm-none-eabi'
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "D:/cmake/share/cmake-4.1/Modules/"
+    found: "D:/cmake/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Python38\\Scripts\\"
+        - "D:\\Python38\\"
+        - "D:\\CUDA\\bin"
+        - "D:\\CUDA\\libnvvp"
+        - "C:\\Windows\\System32"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\mingw64\\libexec\\git-core"
+        - "C:\\Windows"
+        - "D:\\Nodejs\\"
+        - "D:\\Nodejs\\node_modules\\npm"
+        - "D:\\sqlite"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2021.1.0\\"
+        - "D:\\ssh\\bin"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "D:\\vcpkg"
+        - "D:\\cmake\\bin"
+        - "C:\\Users\\cuihs\\.cargo\\bin"
+        - "C:\\Users\\cuihs\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "D:\\Python38\\Scripts\\"
+        - "D:\\Python38\\"
+        - "D:\\CUDA\\bin"
+        - "D:\\CUDA\\libnvvp"
+        - "C:\\Windows\\System32"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\mingw64\\libexec\\git-core"
+        - "C:\\Windows"
+        - "D:\\Nodejs\\"
+        - "D:\\Nodejs\\node_modules\\npm"
+        - "D:\\sqlite"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2021.1.0\\"
+        - "D:\\ssh\\bin"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "D:\\vcpkg"
+        - "D:\\cmake\\bin"
+        - "D:\\maven\\apache-maven-3.8.8\\bin"
+        - "D:\\vscode\\Microsoft VS Code\\bin"
+        - "D:\\Git\u5b89\u88c5\\Git\\bin\\cmd"
+        - "D:\\Git\\bin"
+        - "D:\\Nodejs\\node_global"
+        - "D:\\Clion\\CLion 2025.1.1\\bin"
+        - "D:\\Pycharm\\PyCharm 2025.1.1\\bin"
+        - "D:\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\cuihs\\AppData\\Local\\GitHubDesktop\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Reinforcement_learning_related_code"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: D:/Clion/CLion 2025.1.1/bin/mingw/bin/g++.exe 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+      g++.exe: fatal error: no input files
+      compilation terminated.
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+      g++.exe: fatal error: no input files
+      compilation terminated.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/Reinforcement learning related code/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-2may28"
+      binary: "D:/Reinforcement learning related code/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-2may28"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Reinforcement learning related code/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-2may28'
+        
+        Run Build Command(s): D:/Clion/CLION2~1.1/bin/ninja/win/x64/ninja.exe -v cmTC_4b027
+        [1/2] D:\\Clion\\CLION2~1.1\\bin\\mingw\\bin\\gcc.exe    -o CMakeFiles\\cmTC_4b027.dir\\CMakeCCompilerABI.c.obj -c D:\\cmake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c
+        FAILED: CMakeFiles/cmTC_4b027.dir/CMakeCCompilerABI.c.obj 
+        D:\\Clion\\CLION2~1.1\\bin\\mingw\\bin\\gcc.exe    -o CMakeFiles\\cmTC_4b027.dir\\CMakeCCompilerABI.c.obj -c D:\\cmake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Check for working C compiler: D:/Clion/CLion 2025.1.1/bin/mingw/bin/gcc.exe"
+    directories:
+      source: "D:/Reinforcement learning related code/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3iq0he"
+      binary: "D:/Reinforcement learning related code/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3iq0he"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Reinforcement learning related code/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3iq0he'
+        
+        Run Build Command(s): D:/Clion/CLION2~1.1/bin/ninja/win/x64/ninja.exe -v cmTC_f04e3
+        [1/2] D:\\Clion\\CLION2~1.1\\bin\\mingw\\bin\\gcc.exe    -o CMakeFiles\\cmTC_f04e3.dir\\testCCompiler.c.obj -c "D:\\Reinforcement learning related code\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-3iq0he\\testCCompiler.c"
+        FAILED: CMakeFiles/cmTC_f04e3.dir/testCCompiler.c.obj 
+        D:\\Clion\\CLION2~1.1\\bin\\mingw\\bin\\gcc.exe    -o CMakeFiles\\cmTC_f04e3.dir\\testCCompiler.c.obj -c "D:\\Reinforcement learning related code\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-3iq0he\\testCCompiler.c"
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/Clion/CLion 2025.1.1/bin/mingw/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/Clion/CLion 2025.1.1/bin/mingw/bin/gcc.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/Clion/CLion 2025.1.1/bin/mingw/bin/gcc.exe 
+      Build flags: 
+      Id flags: -Aa 
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/Clion/CLion 2025.1.1/bin/mingw/bin/gcc.exe 
+      Build flags: 
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/Clion/CLion 2025.1.1/bin/mingw/bin/gcc.exe 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      1
+      gcc.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      gcc.exe: error: unrecognized command-line option '--target=arm-arm-none-eabi'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/Clion/CLion 2025.1.1/bin/mingw/bin/gcc.exe 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/Clion/CLion 2025.1.1/bin/mingw/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/Clion/CLion 2025.1.1/bin/mingw/bin/gcc.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/Clion/CLion 2025.1.1/bin/mingw/bin/gcc.exe 
+      Build flags: 
+      Id flags: -Aa 
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/Clion/CLion 2025.1.1/bin/mingw/bin/gcc.exe 
+      Build flags: 
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/Clion/CLion 2025.1.1/bin/mingw/bin/gcc.exe 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      1
+      gcc.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      gcc.exe: error: unrecognized command-line option '--target=arm-arm-none-eabi'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/Clion/CLion 2025.1.1/bin/mingw/bin/gcc.exe 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:1250 (message)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+      gcc.exe: fatal error: no input files
+      compilation terminated.
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:1250 (message)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+      gcc.exe: fatal error: no input files
+      compilation terminated.
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: D:/Clion/CLion 2025.1.1/bin/mingw/bin/g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: D:/Clion/CLion 2025.1.1/bin/mingw/bin/g++.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: D:/Clion/CLion 2025.1.1/bin/mingw/bin/g++.exe 
+      Build flags: 
+      Id flags: --c++ 
+      
+      The output was:
+      1
+      g++.exe: error: unrecognized command-line option '--c++'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: D:/Clion/CLion 2025.1.1/bin/mingw/bin/g++.exe 
+      Build flags: 
+      Id flags: --ec++ 
+      
+      The output was:
+      1
+      g++.exe: error: unrecognized command-line option '--ec++'; did you mean '-Weffc++'?
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: D:/Clion/CLion 2025.1.1/bin/mingw/bin/g++.exe 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      1
+      g++.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      g++.exe: error: unrecognized command-line option '--target=arm-arm-none-eabi'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: D:/Clion/CLion 2025.1.1/bin/mingw/bin/g++.exe 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: D:/Clion/CLion 2025.1.1/bin/mingw/bin/g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: D:/Clion/CLion 2025.1.1/bin/mingw/bin/g++.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: D:/Clion/CLion 2025.1.1/bin/mingw/bin/g++.exe 
+      Build flags: 
+      Id flags: --c++ 
+      
+      The output was:
+      1
+      g++.exe: error: unrecognized command-line option '--c++'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: D:/Clion/CLion 2025.1.1/bin/mingw/bin/g++.exe 
+      Build flags: 
+      Id flags: --ec++ 
+      
+      The output was:
+      1
+      g++.exe: error: unrecognized command-line option '--ec++'; did you mean '-Weffc++'?
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: D:/Clion/CLion 2025.1.1/bin/mingw/bin/g++.exe 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      1
+      g++.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      g++.exe: error: unrecognized command-line option '--target=arm-arm-none-eabi'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: D:/Clion/CLion 2025.1.1/bin/mingw/bin/g++.exe 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:1250 (message)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+      g++.exe: fatal error: no input files
+      compilation terminated.
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:1250 (message)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+      g++.exe: fatal error: no input files
+      compilation terminated.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/Reinforcement learning related code/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-mn2mvi"
+      binary: "D:/Reinforcement learning related code/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-mn2mvi"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Reinforcement learning related code/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-mn2mvi'
+        
+        Run Build Command(s): D:/Clion/CLION2~1.1/bin/ninja/win/x64/ninja.exe -v cmTC_8a3cd
+        [1/2] D:\\Clion\\CLION2~1.1\\bin\\mingw\\bin\\gcc.exe    -o CMakeFiles\\cmTC_8a3cd.dir\\CMakeCCompilerABI.c.obj -c "D:\\Clion\\CLion 2025.1.1\\bin\\cmake\\win\\x64\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+        FAILED: CMakeFiles/cmTC_8a3cd.dir/CMakeCCompilerABI.c.obj 
+        D:\\Clion\\CLION2~1.1\\bin\\mingw\\bin\\gcc.exe    -o CMakeFiles\\cmTC_8a3cd.dir\\CMakeCCompilerABI.c.obj -c "D:\\Clion\\CLion 2025.1.1\\bin\\cmake\\win\\x64\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Check for working C compiler: D:/Clion/CLion 2025.1.1/bin/mingw/bin/gcc.exe"
+    directories:
+      source: "D:/Reinforcement learning related code/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-oz563j"
+      binary: "D:/Reinforcement learning related code/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-oz563j"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Reinforcement learning related code/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-oz563j'
+        
+        Run Build Command(s): D:/Clion/CLION2~1.1/bin/ninja/win/x64/ninja.exe -v cmTC_6a90e
+        [1/2] D:\\Clion\\CLION2~1.1\\bin\\mingw\\bin\\gcc.exe    -o CMakeFiles\\cmTC_6a90e.dir\\testCCompiler.c.obj -c "D:\\Reinforcement learning related code\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-oz563j\\testCCompiler.c"
+        FAILED: CMakeFiles/cmTC_6a90e.dir/testCCompiler.c.obj 
+        D:\\Clion\\CLION2~1.1\\bin\\mingw\\bin\\gcc.exe    -o CMakeFiles\\cmTC_6a90e.dir\\testCCompiler.c.obj -c "D:\\Reinforcement learning related code\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-oz563j\\testCCompiler.c"
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: D:/Clion/CLion 2025.1.1/bin/mingw/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        D:/Reinforcement learning related code/cmake-build-debug/CMakeFiles/3.31.6/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: D:/Clion/CLion 2025.1.1/bin/mingw/bin/g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        D:/Reinforcement learning related code/cmake-build-debug/CMakeFiles/3.31.6/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/Reinforcement learning related code/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9si228"
+      binary: "D:/Reinforcement learning related code/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9si228"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Reinforcement learning related code/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9si228'
+        
+        Run Build Command(s): D:/Clion/CLION2~1.1/bin/ninja/win/x64/ninja.exe -v cmTC_9f232
+        [1/2] D:\\Clion\\CLION2~1.1\\bin\\mingw\\bin\\gcc.exe   -v -o CMakeFiles/cmTC_9f232.dir/CMakeCCompilerABI.c.obj -c "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeCCompilerABI.c"
+        Using built-in specs.
+        COLLECT_GCC=D:\\Clion\\CLION2~1.1\\bin\\mingw\\bin\\gcc.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.1.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9f232.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_9f232.dir/'
+         D:/Clion/CLion 2025.1.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_9f232.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -o C:\\WINDOWS\\TEMP\\cczLssdM.s
+        GNU C17 (GCC) version 13.1.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 13.1.0, GMP version 6.2.1, MPFR version 4.2.0-p4, MPC version 1.3.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "D:/Clion/CLion 2025.1.1/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"
+        ignoring nonexistent directory "/win/include"
+        ignoring duplicate directory "D:/Clion/CLion 2025.1.1/bin/mingw/lib/gcc/../../include"
+        ignoring duplicate directory "D:/Clion/CLion 2025.1.1/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"
+        ignoring duplicate directory "D:/Clion/CLion 2025.1.1/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include
+         D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include
+         D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed
+         D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include
+         /mingw/include
+        End of search list.
+        Compiler executable checksum: 2aa4fcf5c9208168c5e2d38a58fc2a97
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9f232.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_9f232.dir/'
+         as -v -o CMakeFiles/cmTC_9f232.dir/CMakeCCompilerABI.c.obj C:\\WINDOWS\\TEMP\\cczLssdM.s
+        GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40
+        COMPILER_PATH=D:/Clion/CLion 2025.1.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;D:/Clion/CLion 2025.1.1/bin/mingw/bin/../libexec/gcc/
+        LIBRARY_PATH=D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/;D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;/mingw/lib/../lib/;D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../;/mingw/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9f232.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_9f232.dir/CMakeCCompilerABI.c.'\x0d
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\Clion\\CLION2~1.1\\bin\\mingw\\bin\\gcc.exe  -v -Wl,-v CMakeFiles/cmTC_9f232.dir/CMakeCCompilerABI.c.obj -o cmTC_9f232.exe -Wl,--out-implib,libcmTC_9f232.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        Using built-in specs.
+        COLLECT_GCC=D:\\Clion\\CLION2~1.1\\bin\\mingw\\bin\\gcc.exe
+        COLLECT_LTO_WRAPPER=D:/Clion/CLion\\ 2025.1.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.1.0 (GCC) 
+        COMPILER_PATH=D:/Clion/CLion 2025.1.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;D:/Clion/CLion 2025.1.1/bin/mingw/bin/../libexec/gcc/
+        LIBRARY_PATH=D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/;D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;/mingw/lib/../lib/;D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../;/mingw/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9f232.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_9f232.'
+         D:/Clion/CLion 2025.1.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_9f232.exe D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LD:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LD:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc -LD:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -L/mingw/lib/../lib -LD:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LD:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -L/mingw/lib -v CMakeFiles/cmTC_9f232.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_9f232.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
+        collect2 version 13.1.0
+        D:\\Clion\\CLion 2025.1.1\\bin\\mingw\\bin/ld.exe -m i386pep -Bdynamic -o cmTC_9f232.exe D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LD:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LD:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc -LD:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -L/mingw/lib/../lib -LD:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LD:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -L/mingw/lib -v CMakeFiles/cmTC_9f232.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_9f232.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o\x0d
+        GNU ld (GNU Binutils) 2.40\x0d
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9f232.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_9f232.'\x0d
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+          add: [D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include]
+          add: [D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+          add: [D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
+          add: [/mingw/include]
+        end of search list found
+        collapse include dir [D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include] ==> [D:/Clion/CLion 2025.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+        collapse include dir [D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include] ==> [D:/Clion/CLion 2025.1.1/bin/mingw/include]
+        collapse include dir [D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed] ==> [D:/Clion/CLion 2025.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+        collapse include dir [D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include] ==> [D:/Clion/CLion 2025.1.1/bin/mingw/x86_64-w64-mingw32/include]
+        collapse include dir [/mingw/include] ==> [/MinGW/include]
+        implicit include dirs: [D:/Clion/CLion 2025.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include;D:/Clion/CLion 2025.1.1/bin/mingw/include;D:/Clion/CLion 2025.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed;D:/Clion/CLion 2025.1.1/bin/mingw/x86_64-w64-mingw32/include;/MinGW/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: 'D:/Reinforcement learning related code/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9si228']
+        ignore line: []
+        ignore line: [Run Build Command(s): D:/Clion/CLION2~1.1/bin/ninja/win/x64/ninja.exe -v cmTC_9f232]
+        ignore line: [[1/2] D:\\Clion\\CLION2~1.1\\bin\\mingw\\bin\\gcc.exe   -v -o CMakeFiles/cmTC_9f232.dir/CMakeCCompilerABI.c.obj -c "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeCCompilerABI.c"]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:\\Clion\\CLION2~1.1\\bin\\mingw\\bin\\gcc.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.1.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9f232.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_9f232.dir/']
+        ignore line: [ D:/Clion/CLion 2025.1.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_9f232.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -o C:\\WINDOWS\\TEMP\\cczLssdM.s]
+        ignore line: [GNU C17 (GCC) version 13.1.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 13.1.0  GMP version 6.2.1  MPFR version 4.2.0-p4  MPC version 1.3.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "D:/Clion/CLion 2025.1.1/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"]
+        ignore line: [ignoring nonexistent directory "/win/include"]
+        ignore line: [ignoring duplicate directory "D:/Clion/CLion 2025.1.1/bin/mingw/lib/gcc/../../include"]
+        ignore line: [ignoring duplicate directory "D:/Clion/CLion 2025.1.1/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "D:/Clion/CLion 2025.1.1/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+        ignore line: [ D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include]
+        ignore line: [ D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+        ignore line: [ D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [ /mingw/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 2aa4fcf5c9208168c5e2d38a58fc2a97]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9f232.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_9f232.dir/']
+        ignore line: [ as -v -o CMakeFiles/cmTC_9f232.dir/CMakeCCompilerABI.c.obj C:\\WINDOWS\\TEMP\\cczLssdM.s]
+        ignore line: [GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40]
+        ignore line: [COMPILER_PATH=D:/Clion/CLion 2025.1.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [D:/Clion/CLion 2025.1.1/bin/mingw/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/]
+        ignore line: [D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
+        ignore line: [/mingw/lib/../lib/]
+        ignore line: [D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
+        ignore line: [/mingw/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9f232.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_9f232.dir/CMakeCCompilerABI.c.'\x0d]
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\Clion\\CLION2~1.1\\bin\\mingw\\bin\\gcc.exe  -v -Wl -v CMakeFiles/cmTC_9f232.dir/CMakeCCompilerABI.c.obj -o cmTC_9f232.exe -Wl --out-implib libcmTC_9f232.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:\\Clion\\CLION2~1.1\\bin\\mingw\\bin\\gcc.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=D:/Clion/CLion\\ 2025.1.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.1.0 (GCC) ]
+        ignore line: [COMPILER_PATH=D:/Clion/CLion 2025.1.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [D:/Clion/CLion 2025.1.1/bin/mingw/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/]
+        ignore line: [D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
+        ignore line: [/mingw/lib/../lib/]
+        ignore line: [D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
+        ignore line: [/mingw/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9f232.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_9f232.']
+        ignore line: [ D:/Clion/CLion 2025.1.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_9f232.exe D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LD:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LD:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc -LD:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -L/mingw/lib/../lib -LD:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LD:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -L/mingw/lib -v CMakeFiles/cmTC_9f232.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_9f232.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        ignore line: [collect2 version 13.1.0]
+        ignore line: [D:\\Clion\\CLion 2025.1.1\\bin\\mingw\\bin/ld.exe -m i386pep -Bdynamic -o cmTC_9f232.exe D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LD:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LD:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc -LD:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -L/mingw/lib/../lib -LD:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LD:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -L/mingw/lib -v CMakeFiles/cmTC_9f232.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_9f232.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o\x0d]
+        ignore line: [GNU ld (GNU Binutils) 2.40\x0d]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9f232.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_9f232.'\x0d]
+        ignore line: []
+        ignore line: []
+        linker tool for 'C': D:/Clion/CLion 2025.1.1/bin/mingw/bin/ld.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "D:/Clion/CLion 2025.1.1/bin/mingw/bin/ld.exe" "-v"
+      GNU ld (GNU Binutils) 2.40
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/Reinforcement learning related code/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-cu1ppx"
+      binary: "D:/Reinforcement learning related code/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-cu1ppx"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Reinforcement learning related code/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-cu1ppx'
+        
+        Run Build Command(s): D:/Clion/CLION2~1.1/bin/ninja/win/x64/ninja.exe -v cmTC_eb704
+        [1/2] D:\\Clion\\CLION2~1.1\\bin\\mingw\\bin\\G__~1.EXE   -v -o CMakeFiles/cmTC_eb704.dir/CMakeCXXCompilerABI.cpp.obj -c "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp"
+        Using built-in specs.
+        COLLECT_GCC=D:\\Clion\\CLION2~1.1\\bin\\mingw\\bin\\G__~1.EXE
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.1.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_eb704.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_eb704.dir/'
+         D:/Clion/CLion 2025.1.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_eb704.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\WINDOWS\\TEMP\\ccKAomPd.s
+        GNU C++17 (GCC) version 13.1.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 13.1.0, GMP version 6.2.1, MPFR version 4.2.0-p4, MPC version 1.3.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "D:/Clion/CLion 2025.1.1/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"
+        ignoring duplicate directory "D:/Clion/CLion 2025.1.1/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"
+        ignoring duplicate directory "D:/Clion/CLion 2025.1.1/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"
+        ignoring duplicate directory "D:/Clion/CLion 2025.1.1/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"
+        ignoring nonexistent directory "/win/include"
+        ignoring duplicate directory "D:/Clion/CLion 2025.1.1/bin/mingw/lib/gcc/../../include"
+        ignoring duplicate directory "D:/Clion/CLion 2025.1.1/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"
+        ignoring duplicate directory "D:/Clion/CLion 2025.1.1/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++
+         D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32
+         D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward
+         D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include
+         D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include
+         D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed
+         D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include
+         /mingw/include
+        End of search list.
+        Compiler executable checksum: e75de627edc3c57e31324b930b15b056
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_eb704.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_eb704.dir/'
+         as -v -o CMakeFiles/cmTC_eb704.dir/CMakeCXXCompilerABI.cpp.obj C:\\WINDOWS\\TEMP\\ccKAomPd.s
+        GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40
+        COMPILER_PATH=D:/Clion/CLion 2025.1.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;D:/Clion/CLion 2025.1.1/bin/mingw/bin/../libexec/gcc/
+        LIBRARY_PATH=D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/;D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;/mingw/lib/../lib/;D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../;/mingw/lib/\x0d
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_eb704.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_eb704.dir/CMakeCXXCompilerABI.cpp.'\x0d
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\Clion\\CLION2~1.1\\bin\\mingw\\bin\\G__~1.EXE  -v -Wl,-v CMakeFiles/cmTC_eb704.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_eb704.exe -Wl,--out-implib,libcmTC_eb704.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        Using built-in specs.
+        COLLECT_GCC=D:\\Clion\\CLION2~1.1\\bin\\mingw\\bin\\G__~1.EXE
+        COLLECT_LTO_WRAPPER=D:/Clion/CLion\\ 2025.1.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.1.0 (GCC) 
+        COMPILER_PATH=D:/Clion/CLion 2025.1.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;D:/Clion/CLion 2025.1.1/bin/mingw/bin/../libexec/gcc/
+        LIBRARY_PATH=D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/;D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;/mingw/lib/../lib/;D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../;/mingw/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_eb704.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_eb704.'
+         D:/Clion/CLion 2025.1.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_eb704.exe D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LD:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LD:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc -LD:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -L/mingw/lib/../lib -LD:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LD:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -L/mingw/lib -v CMakeFiles/cmTC_eb704.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_eb704.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
+        collect2 version 13.1.0
+        D:\\Clion\\CLion 2025.1.1\\bin\\mingw\\bin/ld.exe -m i386pep -Bdynamic -o cmTC_eb704.exe D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LD:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LD:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc -LD:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -L/mingw/lib/../lib -LD:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LD:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -L/mingw/lib -v CMakeFiles/cmTC_eb704.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_eb704.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o\x0d
+        GNU ld (GNU Binutils) 2.40\x0d
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_eb704.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_eb704.'\x0d
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++]
+          add: [D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32]
+          add: [D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward]
+          add: [D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+          add: [D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include]
+          add: [D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+          add: [D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
+          add: [/mingw/include]
+        end of search list found
+        collapse include dir [D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++] ==> [D:/Clion/CLion 2025.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++]
+        collapse include dir [D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32] ==> [D:/Clion/CLion 2025.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32]
+        collapse include dir [D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward] ==> [D:/Clion/CLion 2025.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward]
+        collapse include dir [D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include] ==> [D:/Clion/CLion 2025.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+        collapse include dir [D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include] ==> [D:/Clion/CLion 2025.1.1/bin/mingw/include]
+        collapse include dir [D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed] ==> [D:/Clion/CLion 2025.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+        collapse include dir [D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include] ==> [D:/Clion/CLion 2025.1.1/bin/mingw/x86_64-w64-mingw32/include]
+        collapse include dir [/mingw/include] ==> [/MinGW/include]
+        implicit include dirs: [D:/Clion/CLion 2025.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++;D:/Clion/CLion 2025.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32;D:/Clion/CLion 2025.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward;D:/Clion/CLion 2025.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include;D:/Clion/CLion 2025.1.1/bin/mingw/include;D:/Clion/CLion 2025.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed;D:/Clion/CLion 2025.1.1/bin/mingw/x86_64-w64-mingw32/include;/MinGW/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: 'D:/Reinforcement learning related code/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-cu1ppx']
+        ignore line: []
+        ignore line: [Run Build Command(s): D:/Clion/CLION2~1.1/bin/ninja/win/x64/ninja.exe -v cmTC_eb704]
+        ignore line: [[1/2] D:\\Clion\\CLION2~1.1\\bin\\mingw\\bin\\G__~1.EXE   -v -o CMakeFiles/cmTC_eb704.dir/CMakeCXXCompilerABI.cpp.obj -c "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp"]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:\\Clion\\CLION2~1.1\\bin\\mingw\\bin\\G__~1.EXE]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.1.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_eb704.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_eb704.dir/']
+        ignore line: [ D:/Clion/CLion 2025.1.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_eb704.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\WINDOWS\\TEMP\\ccKAomPd.s]
+        ignore line: [GNU C++17 (GCC) version 13.1.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 13.1.0  GMP version 6.2.1  MPFR version 4.2.0-p4  MPC version 1.3.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "D:/Clion/CLion 2025.1.1/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"]
+        ignore line: [ignoring duplicate directory "D:/Clion/CLion 2025.1.1/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"]
+        ignore line: [ignoring duplicate directory "D:/Clion/CLion 2025.1.1/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"]
+        ignore line: [ignoring duplicate directory "D:/Clion/CLion 2025.1.1/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"]
+        ignore line: [ignoring nonexistent directory "/win/include"]
+        ignore line: [ignoring duplicate directory "D:/Clion/CLion 2025.1.1/bin/mingw/lib/gcc/../../include"]
+        ignore line: [ignoring duplicate directory "D:/Clion/CLion 2025.1.1/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "D:/Clion/CLion 2025.1.1/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++]
+        ignore line: [ D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32]
+        ignore line: [ D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward]
+        ignore line: [ D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+        ignore line: [ D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include]
+        ignore line: [ D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+        ignore line: [ D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [ /mingw/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: e75de627edc3c57e31324b930b15b056]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_eb704.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_eb704.dir/']
+        ignore line: [ as -v -o CMakeFiles/cmTC_eb704.dir/CMakeCXXCompilerABI.cpp.obj C:\\WINDOWS\\TEMP\\ccKAomPd.s]
+        ignore line: [GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40]
+        ignore line: [COMPILER_PATH=D:/Clion/CLion 2025.1.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [D:/Clion/CLion 2025.1.1/bin/mingw/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/]
+        ignore line: [D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
+        ignore line: [/mingw/lib/../lib/]
+        ignore line: [D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
+        ignore line: [/mingw/lib/\x0d]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_eb704.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_eb704.dir/CMakeCXXCompilerABI.cpp.'\x0d]
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\Clion\\CLION2~1.1\\bin\\mingw\\bin\\G__~1.EXE  -v -Wl -v CMakeFiles/cmTC_eb704.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_eb704.exe -Wl --out-implib libcmTC_eb704.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:\\Clion\\CLION2~1.1\\bin\\mingw\\bin\\G__~1.EXE]
+        ignore line: [COLLECT_LTO_WRAPPER=D:/Clion/CLion\\ 2025.1.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.1.0 (GCC) ]
+        ignore line: [COMPILER_PATH=D:/Clion/CLion 2025.1.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [D:/Clion/CLion 2025.1.1/bin/mingw/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/]
+        ignore line: [D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
+        ignore line: [/mingw/lib/../lib/]
+        ignore line: [D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
+        ignore line: [/mingw/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_eb704.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_eb704.']
+        ignore line: [ D:/Clion/CLion 2025.1.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_eb704.exe D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LD:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LD:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc -LD:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -L/mingw/lib/../lib -LD:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LD:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -L/mingw/lib -v CMakeFiles/cmTC_eb704.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_eb704.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        ignore line: [collect2 version 13.1.0]
+        ignore line: [D:\\Clion\\CLion 2025.1.1\\bin\\mingw\\bin/ld.exe -m i386pep -Bdynamic -o cmTC_eb704.exe D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LD:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LD:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc -LD:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -L/mingw/lib/../lib -LD:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LD:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -L/mingw/lib -v CMakeFiles/cmTC_eb704.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_eb704.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o D:/Clion/CLion 2025.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o\x0d]
+        ignore line: [GNU ld (GNU Binutils) 2.40\x0d]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_eb704.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_eb704.'\x0d]
+        ignore line: []
+        ignore line: []
+        linker tool for 'CXX': D:/Clion/CLion 2025.1.1/bin/mingw/bin/ld.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "D:/Clion/CLion 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "D:/Clion/CLion 2025.1.1/bin/mingw/bin/ld.exe" "-v"
+      GNU ld (GNU Binutils) 2.40
+...
