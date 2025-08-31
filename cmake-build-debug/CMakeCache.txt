@@ -28,7 +28,7 @@ CMAKE_BUILD_TYPE:STRING=Debug
 CMAKE_COLOR_DIAGNOSTICS:BOOL=ON
 
 //CXX compiler
-CMAKE_CXX_COMPILER:STRING=D:/Clion/CLion 2025.1.1/bin/mingw/bin/g++.exe
+CMAKE_CXX_COMPILER:FILEPATH=D:/Clion/CLion 2025.1.1/bin/mingw/bin/g++.exe
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
@@ -57,7 +57,7 @@ CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 CMAKE_CXX_STANDARD_LIBRARIES:STRING=-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
 
 //C compiler
-CMAKE_C_COMPILER:STRING=D:/Clion/CLion 2025.1.1/bin/mingw/bin/gcc.exe
+CMAKE_C_COMPILER:FILEPATH=D:/Clion/CLion 2025.1.1/bin/mingw/bin/gcc.exe
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
@@ -122,7 +122,7 @@ CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/Reinforcement_learning_related_
 CMAKE_LINKER:FILEPATH=D:/Clion/CLion 2025.1.1/bin/mingw/bin/ld.exe
 
 //make program
-CMAKE_MAKE_PROGRAM:FILEPATH=D:/Clion/CLION2~1.1/bin/ninja/win/x64/ninja.exe
+CMAKE_MAKE_PROGRAM:FILEPATH=D:/Clion/CLion 2025.1.1/bin/ninja/win/x64/ninja.exe
 
 //Flags used by the linker during the creation of modules during
 // all build types.
@@ -154,9 +154,6 @@ CMAKE_OBJCOPY:FILEPATH=D:/Clion/CLion 2025.1.1/bin/mingw/bin/objcopy.exe
 CMAKE_OBJDUMP:FILEPATH=D:/Clion/CLion 2025.1.1/bin/mingw/bin/objdump.exe
 
 //Value Computed by CMake
-CMAKE_PROJECT_COMPAT_VERSION:STATIC=
-
-//Value Computed by CMake
 CMAKE_PROJECT_DESCRIPTION:STATIC=
 
 //Value Computed by CMake
@@ -164,21 +161,6 @@ CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
 CMAKE_PROJECT_NAME:STATIC=Reinforcement_learning_related_code
-
-//Value Computed by CMake
-CMAKE_PROJECT_VERSION:STATIC=
-
-//Value Computed by CMake
-CMAKE_PROJECT_VERSION_MAJOR:STATIC=
-
-//Value Computed by CMake
-CMAKE_PROJECT_VERSION_MINOR:STATIC=
-
-//Value Computed by CMake
-CMAKE_PROJECT_VERSION_PATCH:STATIC=
-
-//Value Computed by CMake
-CMAKE_PROJECT_VERSION_TWEAK:STATIC=
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=D:/Clion/CLion 2025.1.1/bin/mingw/bin/ranlib.exe
@@ -333,8 +315,6 @@ CMAKE_C_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 CMAKE_C_STANDARD_LIBRARIES-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_DLLTOOL
 CMAKE_DLLTOOL-ADVANCED:INTERNAL=1
-//Path to cache edit program executable.
-CMAKE_EDIT_COMMAND:INTERNAL=D:/cmake/bin/cmake-gui.exe
 //Executable file format
 CMAKE_EXECUTABLE_FORMAT:INTERNAL=Unknown
 //ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS
@@ -366,8 +346,6 @@ CMAKE_GENERATOR_TOOLSET:INTERNAL=
 CMAKE_HOME_DIRECTORY:INTERNAL=D:/Reinforcement learning related code
 //ADVANCED property for variable: CMAKE_LINKER
 CMAKE_LINKER-ADVANCED:INTERNAL=1
-//Name of CMakeLists files to read
-CMAKE_LIST_FILE_NAME:INTERNAL=CMakeLists.txt
 //ADVANCED property for variable: CMAKE_MODULE_LINKER_FLAGS
 CMAKE_MODULE_LINKER_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MODULE_LINKER_FLAGS_DEBUG

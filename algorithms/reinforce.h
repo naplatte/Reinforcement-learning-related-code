@@ -214,3 +214,4 @@ void reinforce(const Grid& grid,
 }
 
 #endif //REINFORCE_H
+

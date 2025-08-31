@@ -6,6 +6,7 @@
 #include "algorithms/reinforce.h"
 #include "algorithms/trpo.h"
 #include "algorithms/ppo.h"
+#include "algorithms/ddpg.h"
 
 // Print grid representation of state values V
 void print_grid(const std::vector<std::vector<double>> V) {
@@ -67,6 +68,11 @@ int main() {
 
     std::cout << "--- PPO (Proximal Policy Optimization) ---\n";
     ppo(grid, V, policy, 1500, 15, 0.001, 0.2);  // 1500 episodes, update every 15 episodes, lr=0.001, epsilon=0.2
+    print_grid(V);
+    print_policy(policy, grid);
+
+    std::cout << "--- DDPG (Deep Deterministic Policy Gradient) ---\n";
+    ddpg(grid, V, policy, 1500, 32, 0.001, 0.001, 0.001);  // 1500 episodes, batch_size=32, actor_lr=0.001, critic_lr=0.001, tau=0.001
     print_grid(V);
     print_policy(policy, grid);
 
